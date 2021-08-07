@@ -8,17 +8,24 @@
     <title>Tip Calculator</title>
 </head>
 <body>
-    <h1>Tip Calculator</h1>
-    <form id='calculator'>
-        <input type='number' id='total' placeholder="Enter total bill amount">
-        <input type='number' id='tip-percent' placeholder="Enter percent tip">
-    </form>
-    <div id='results'>
-        <h2>Results</h2>
-        <p>Tip Amount</p>
-        <div id='tip-amount'></div>
-        <p>Total Including Tip</p>
-        <div id='total-with-tip'></div>
+    <div class='wrapper'>
+        <h1>Tip Calculator</h1>
+        <form id='calculator'>
+            <p>Bill:</p>
+            <input type='number' id='total' placeholder="Enter total bill amount">
+            <p>Tip:</p>
+            <input type='number' id='tip-percent' placeholder="Enter percent tip">
+            <div id='tip-output'></div>
+        </form>
+        <div id='results'>
+            <h1>Results</h1>
+            <div class='results-wrapper'>
+                <p>Tip Amount:</p>
+                <div id='tip-amount'></div>
+                <p>Total Including Tip:</p>
+                <div id='total-with-tip'></div>
+            </div>
+        </div>
     </div>
 <script src='app.js'></script>    
 </body>
