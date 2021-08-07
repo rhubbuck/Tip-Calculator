@@ -1,6 +1,6 @@
 .wrapper {
     text-align: center;
-    border: 5px solid blueviolet;
+    border: 5px solid #147EFB;
     width: 40%;
     margin: 0 auto;
     margin-top: 100px;
@@ -20,8 +20,8 @@ input, p, #tip-amount, #total-with-tip {
 input {
     height: 25px;
     border-radius: 4px;
-    border: 2px solid blueviolet;
-    background-color: rgb(231, 231, 231);
+    border: 2px solid #147EFB;
+    background-color: rgb(241, 241, 241);
 }
 .results-wrapper {
     display: flex;
@@ -33,12 +33,17 @@ input {
     display: none;
 }
 body {
-    color: purple;
-    background-color: blueviolet;
+    font-family: 'Roboto', sans-serif;
 }
 h1 {
     font-size: 2em;
 }
 p {
     font-size: 1.3em;
+}
+#tip-output {
+    align-self: center;
+}
+#range {
+    margin-top: 8%;
 }
